@@ -54,6 +54,14 @@
     transition: all ease-in-out 1s;
 }
 
+.showMessage{
+    margin-top: 0px;
+}
+
+.hideMessage{
+    margin-top: -1200px;
+}
+
 .closeButton{
     width: 20px;
     font-weight: 900;
@@ -81,12 +89,4 @@
 
 .closeButton:hover .closeBtnHoverMessage{
     display: block;
-}
-
-.showMessage{
-    margin-top: 0px;
-}
-
-.hideMessage{
-    margin-top: -1200px;
 }
